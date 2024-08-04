@@ -271,6 +271,7 @@ F E A T U R E S
     align-items: center;
     display: flex;
     flex-direction: column;
+    padding-bottom: 8rem;
 
 }
 
@@ -360,12 +361,11 @@ Q U A L I T Y W O R K
 
 */
 
-#quality {
-    height: 50vh
-}
 
 .quality-work__container {
     display: flex;
+    margin-bottom: 8rem;
+    
 }
 
 .quality-work__info--container {
@@ -401,7 +401,7 @@ S T E P S
 .steps__container {
     display: flex;
     align-items: center;
-
+margin-bottom: 8rem;
 }
 
 .steps__info {
@@ -462,6 +462,7 @@ V A L U E S
 .values__container {
     display: flex;
     align-items: center;
+    padding-bottom: 8rem;
 }
 
 .values__para {
@@ -554,7 +555,7 @@ P R I C I N G
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 3rem;
+    padding-top: 3rem;
 }
 
 
@@ -573,6 +574,7 @@ P R I C I N G
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-bottom: 8rem;
 
 }
 
@@ -707,6 +709,7 @@ T E S T I M O N I A L S
 
 .testimonials__container {
     display: flex;
+    padding-bottom: 8rem;
 }
 
 
@@ -784,9 +787,7 @@ T E S T I M O N I A L S
 
 /* P U R P L E B O X */
 
-#box {
-    margin-top: 130px;
-}
+
 
 .purple-box__row {
     width: 100%;
@@ -810,6 +811,7 @@ T E S T I M O N I A L S
     align-items: center;
     background-color: rgb(100 21 255);
     border-radius: 8px;
+    padding-top: 8rem;
 }
 
 .text__wrapper {
@@ -840,12 +842,13 @@ T E S T I M O N I A L S
 .links__background {
     background-color: rgb(100 21 255);
     padding-bottom: 64px;
+    
 
 }
 
 
 .links {
-    margin-top: 180px;
+   margin-top: 15rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
