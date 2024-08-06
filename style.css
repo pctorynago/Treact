@@ -274,7 +274,7 @@ F E A T U R E S
     align-items: center;
     display: flex;
     flex-direction: column;
-    
+
 
 
 }
@@ -950,9 +950,10 @@ T E S T I M O N I A L S
 .footer_logos {
     margin-right: 24px;
 }
-@media (max-width: 1250px)
-{
-    .navi{ padding: 0 24px; 
+
+@media (max-width: 1250px) {
+    .navi {
+        padding: 0 24px;
     }
 
     .header__container {
@@ -1040,7 +1041,7 @@ T E S T I M O N I A L S
     #features {
         margin-top: 300px;
         margin-bottom: 100px;
-        
+
     }
 
     .features__container {
@@ -1161,11 +1162,12 @@ T E S T I M O N I A L S
     /* PURPLE BOX */
 
     .purple-box {
-        width: 100%;
-        margin: 0 16px 0 16px;
+        width: 85%;
+        margin: auto;
         display: flex;
         flex-direction: column;
         text-align: center;
+
 
     }
 
@@ -1211,7 +1213,11 @@ T E S T I M O N I A L S
         display: flex;
         flex-direction: column;
         justify-content: center;
-   
+
+    }
+
+    .section__title {
+        text-align: center;
     }
 
     .steps__info {
@@ -1219,23 +1225,28 @@ T E S T I M O N I A L S
         align-items: center;
     }
 
- .plans {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    
- }
+    .plans {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
 
- .plan {
-    width: 80%;
- }
+    }
+
+    .plan {
+        width: 80%;
+    }
 
     .quality-work__img {
         padding-top: 48px;
+        width: 100%;
     }
 
     .steps__img {
         width: 75%;
+    }
+
+    .subheader__title {
+        text-align: center;
     }
 
     .steps__img--container {
@@ -1261,7 +1272,7 @@ T E S T I M O N I A L S
         width: 100%;
         display: flex;
         flex-direction: column;
-     
+
     }
 
     .values__container {
@@ -1271,31 +1282,37 @@ T E S T I M O N I A L S
 
     .values__img {
         padding-top: 32px;
-        
+
     }
 
- .values__mini--para {
-    display: flex;
-    flex-direction: column;
- }
+    .values__para {
+        align-items: center;
+        padding-left: 0;
+        width: 100%;
+    }
 
- .service {
-    padding: 0;
-    padding-bottom: 24px;
- }
+    .values__mini--para {
+        display: flex;
+        flex-direction: column;
+    }
 
- .mini__para--wrapper {
-    padding-left: 0;
- }
+    .service {
+        padding: 0;
+        padding-bottom: 24px;
+    }
 
-#quality {
-    padding-top: 0px;
-}
+    .mini__para--wrapper {
+        padding-left: 0;
+    }
+
+    #quality {
+        padding-top: 0px;
+    }
 
     .service__description--para {
         line-height: 1.625;
     }
-    
+
     .pricing__button {
         padding: 8px 4px;
 
@@ -1316,18 +1333,10 @@ T E S T I M O N I A L S
         flex-direction: column;
     }
 
-    .testi__main--para {
-        line-height: 1;
-        font-size: 16px;
-
+    .subheader__title--values {
+        margin-left: 0
     }
 
-    .testi__exp--para {
-        line-height: 1;
-        font-size: 16px;
-    }
-
- 
     .purple-box {
         display: none;
     }
