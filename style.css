@@ -1092,6 +1092,7 @@ T E S T I M O N I A L S
 
     .steps__img {
         padding-bottom: 24px;
+        padding-right: 24px;
     }
 
 
@@ -1102,6 +1103,9 @@ T E S T I M O N I A L S
 
     .steps__img--container {
         margin-top: 80px 0;
+        width: 100%;
+        margin: 0 auto;
+       
 
     }
 
@@ -1191,6 +1195,44 @@ T E S T I M O N I A L S
     .footer__info {
         padding: 0 32px 0 32px;
     }
+
+}
+
+@media (max-width: 755px) {
+
+    .values__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .values__mini--para {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .features__title--container {
+        padding-top: 80px;
+    }
+
+    .values__img {
+        padding-top: 48px;
+    }
+
+.values__para {
+    padding-left: 0;
+    text-align: center;
+    
+}
+
+.values__info {
+    align-items: center;
+}
+
+.section__title {
+    text-align: center;
+}
+
 
 }
 
