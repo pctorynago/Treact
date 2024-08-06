@@ -194,6 +194,7 @@ H E A D E R
 */
 
 header {
+    padding-top: 60px;
     height: 40vh;
 
 }
@@ -266,7 +267,7 @@ F E A T U R E S
 
 */
 #features {
-    padding-top: 200px;
+    margin-top: 300px;
 }
 
 .features__container {
@@ -949,7 +950,35 @@ T E S T I M O N I A L S
 .footer_logos {
     margin-right: 24px;
 }
+@media (max-width: 1250px)
+{
+    .navi{ padding: 0 24px; 
+    }
 
+    .header__container {
+        padding: 0 24px;
+    }
+
+    .quality-work__container {
+        padding: 0 24px;
+    }
+
+    .values__container {
+        padding: 0 24px;
+    }
+
+    .plans {
+        padding: 0 24px;
+    }
+
+    .testimonials__container {
+        padding: 0 24px;
+    }
+
+    .links {
+        padding: 0 24px;
+    }
+}
 
 @media (max-width: 1000px) {
     .nav__link {
@@ -996,6 +1025,7 @@ T E S T I M O N I A L S
     input {
         height: 44px;
         margin-bottom: 4px;
+        border: 1px solid grey;
     }
 
     .input__wrapper {
@@ -1008,7 +1038,9 @@ T E S T I M O N I A L S
     /* FEATURES */
 
     #features {
-        margin: 80px 0;
+        margin-top: 300px;
+        margin-bottom: 100px;
+        
     }
 
     .features__container {
@@ -1162,8 +1194,44 @@ T E S T I M O N I A L S
 
 @media (max-width: 480px) {
 
+    .header__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__photo {
+        padding-top: 40px;
+    }
+
     .features__title--container {
-        padding-top: 100px;
+        margin-top: 300px;
+    }
+
+    .quality-work__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+   
+    }
+
+    .steps__info {
+        display: flex;
+        align-items: center;
+    }
+
+ .plans {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+ }
+
+ .plan {
+    width: 80%;
+ }
+
+    .quality-work__img {
+        padding-top: 48px;
     }
 
     .steps__img {
@@ -1191,11 +1259,41 @@ T E S T I M O N I A L S
 
     .services {
         width: 100%;
+        display: flex;
+        flex-direction: column;
      
     }
 
+    .values__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .values__img {
+        padding-top: 32px;
+        
+    }
+
+ .values__mini--para {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .service {
+    padding: 0;
+    padding-bottom: 24px;
+ }
+
+ .mini__para--wrapper {
+    padding-left: 0;
+ }
+
+#quality {
+    padding-top: 0px;
+}
+
     .service__description--para {
-        line-height: 1;
+        line-height: 1.625;
     }
     
     .pricing__button {
@@ -1212,6 +1310,12 @@ T E S T I M O N I A L S
         display: none;
     }
 
+    .testimonials__container {
+
+        display: flex;
+        flex-direction: column;
+    }
+
     .testi__main--para {
         line-height: 1;
         font-size: 16px;
@@ -1223,6 +1327,7 @@ T E S T I M O N I A L S
         font-size: 16px;
     }
 
+ 
     .purple-box {
         display: none;
     }
