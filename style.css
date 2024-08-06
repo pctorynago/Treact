@@ -43,10 +43,10 @@ button {
     background-color: #6415ff;
     transition: all 300ms ease;
     border: none;
-    font-size: 16px;
+    font-size: 1.5rem;
     font-weight: 700;
-    border-radius: 50px;
-    padding: 16px 24px;
+    border-radius: 3rem;
+    padding: 1rem 1.5rem;
     cursor: pointer;
 
 }
@@ -67,13 +67,14 @@ N A V I G A T I O N
 
 */
 
-.nav {
-    height: 80px;
+.navi {
+    height: 70px;
     display: flex;
     justify-content: space-between;
     margin: 24px 0 24px 0;
     text-align: center;
     align-items: center;
+
 }
 
 .nav__logo {
@@ -89,8 +90,8 @@ N A V I G A T I O N
 
 .treact {
     font-weight: 900;
-    font-size: 1.5rem;
-    margin: 0 0 0 1.5rem;
+    font-size: 24;
+    margin: 0 0 0 24px;
 }
 
 .nav__links--list {
@@ -99,8 +100,8 @@ N A V I G A T I O N
 }
 
 .nav__link {
-    margin: 0 1.5rem;
-    padding: 0 .25rem;
+    margin: 0 24px;
+    padding: 0 16px;
     color: black;
 
 }
@@ -193,9 +194,8 @@ H E A D E R
 */
 
 header {
+    height: 40vh;
 
-    height: 50vh;
-    margin-bottom: 120px;
 }
 
 .header__container {
@@ -250,7 +250,7 @@ input {
 }
 
 .otc--wrapper {
-    margin-top: 2.5rem;
+    margin-top: 40px;
 }
 
 .otc--text {
@@ -265,20 +265,22 @@ input {
 F E A T U R E S 
 
 */
-
+#features {
+    padding-top: 200px;
+}
 
 .features__container {
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding-bottom: 8rem;
+    
+
 
 }
 
 .section__title {
-    margin-top: 4rem;
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
+    font-size: 16px;
+    margin-bottom: 24px;
     font-weight: 700;
     color: rgb(100 21 255);
 
@@ -294,7 +296,7 @@ F E A T U R E S
 .subheader__title {
 
     width: 100%;
-    font-size: 2.5rem;
+    font-size: 40px;
     font-weight: 900;
 
 }
@@ -361,11 +363,14 @@ Q U A L I T Y W O R K
 
 */
 
+#quality {
+    padding: 80px 0;
+}
 
 .quality-work__container {
     display: flex;
-    margin-bottom: 8rem;
-    
+
+
 }
 
 .quality-work__info--container {
@@ -373,7 +378,7 @@ Q U A L I T Y W O R K
     flex-direction: column;
     align-items: start;
     width: 60%;
-    margin-right: 2rem;
+    margin-right: 32px;
 }
 
 .quality-work__para {
@@ -401,7 +406,7 @@ S T E P S
 .steps__container {
     display: flex;
     align-items: center;
-margin-bottom: 8rem;
+    padding: 80px 0;
 }
 
 .steps__info {
@@ -421,7 +426,7 @@ margin-bottom: 8rem;
 }
 
 .steps__list:not(:last-child) {
-    padding-bottom: 1.5rem;
+    padding-bottom: 24px;
 }
 
 .steps__description {
@@ -434,7 +439,7 @@ margin-bottom: 8rem;
     font-weight: 600;
     line-height: 1;
     color: rgba(191, 201, 211, 0.9);
-    margin-right: 3rem;
+    margin-right: 48px;
 
 
 }
@@ -462,7 +467,7 @@ V A L U E S
 .values__container {
     display: flex;
     align-items: center;
-    padding-bottom: 8rem;
+    padding: 80px 0;
 }
 
 .values__para {
@@ -548,6 +553,9 @@ P R I C I N G
 
 */
 
+#pricing {
+    padding: 80px 0;
+}
 
 
 .pricing__title--container {
@@ -555,7 +563,8 @@ P R I C I N G
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 3rem;
+
+
 }
 
 
@@ -574,7 +583,7 @@ P R I C I N G
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 8rem;
+    padding-bottom: 128px;
 
 }
 
@@ -709,7 +718,7 @@ T E S T I M O N I A L S
 
 .testimonials__container {
     display: flex;
-    padding-bottom: 8rem;
+    padding: 80px 0;
 }
 
 
@@ -787,11 +796,13 @@ T E S T I M O N I A L S
 
 /* P U R P L E B O X */
 
-
+#box {
+    padding: 40px 0;
+}
 
 .purple-box__row {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -811,7 +822,7 @@ T E S T I M O N I A L S
     align-items: center;
     background-color: rgb(100 21 255);
     border-radius: 8px;
-    padding-top: 8rem;
+
 }
 
 .text__wrapper {
@@ -841,14 +852,15 @@ T E S T I M O N I A L S
 
 .links__background {
     background-color: rgb(100 21 255);
-    padding-bottom: 64px;
-    
+    padding-bottom: 24px;
+    margin-top: 80px;
+
 
 }
 
 
 .links {
-   margin-top: 15rem;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -939,17 +951,13 @@ T E S T I M O N I A L S
 }
 
 
-@media (width < 62.5rem) {
+@media (max-width: 1000px) {
     .nav__link {
         display: none;
     }
 
     .btn__menu {
         display: block;
-    }
-
-    #navigation {
-        padding: 0 0 0 24px;
     }
 
     h1 {
@@ -965,107 +973,29 @@ T E S T I M O N I A L S
         font-size: 16px;
     }
 
+    /* NAV */
+
+    .navi {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 24px;
+        padding-right: 24px
+    }
+
+    /* HEADER */
+
     .header__container {
-        padding-bottom: 48px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 
-    .features__title--container {
-        padding-top: 48px;
-    }
-
-    .section__title--steps {
-        margin-left: 1.5rem;
-    }
-
-    .subheader__title--steps {
-        margin-left: 1.5rem;
-    }
-
-    .steps__number {
-        margin-left: 1.5rem;
-    }
-
-
-    .service {
-        width: 50%;
-    }
-
-
-    .quality-work__img--container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-    }
-
-    .quality-work__container {
-        padding-right: 1.5rem;
-        padding-left: 1.5rem;
-    }
-
-    .steps__container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .steps__img--container {
-        margin-top: 10rem;
-
-    }
-
-    .section__title--values {
-        margin-left: 1.5rem;
-    }
-
-    .subheader__title--values {
-        margin-left: 1.5rem;
-    }
-
-    .values__para {
-        font-size: 1rem;
-        padding-top: 1rem;
-        margin-left: 1.5rem;
-
-    }
-
-    .values__img--wrapper {
-        display: flex;
-        justify-content: center;
-
-    }
-
-
-    .values__mini--para {
-        margin-left: 1.5rem;
-    }
-
-    .values__button {
-        margin-left: 1.5rem;
-    }
-
-
-    .plans {
-        padding: 0 1.5rem 0 1.5rem;
-    }
-
-    .testi__main--para {
-        font-size: 1rem;
-    }
-
-    .testi__exp--para {
-        font-size: 1rem;
-    }
-
-    .section__title--testi {
-        padding-top: 3rem;
-    }
-
-    .purple-box {
-        margin-top: 15rem;
-    }
-
-    .section__title--pricing {
-        margin-top: 0;
+    input {
+        height: 44px;
+        margin-bottom: 4px;
     }
 
     .input__wrapper {
@@ -1075,14 +1005,132 @@ T E S T I M O N I A L S
 
     }
 
-    input {
-        height: 44px;
-        margin-bottom: 1rem;
+    /* FEATURES */
+
+    #features {
+        margin: 80px 0;
     }
+
+    .features__container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 24px;
+        padding-right: 24px;
+
+
+    }
+
+    .service {
+        width: 50%;
+
+    }
+
+    .features__title--container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    /* QUALITY WORK */
+
+
+    .quality-work__container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 24px;
+        padding-right: 24px;
+        display: flex;
+        align-items: center;
+    }
+
+    /* STEPS */
+
+    .steps__container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .steps__img {
+        padding-bottom: 24px;
+    }
+
+
+    .steps__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .steps__img--container {
+        margin-top: 80px 0;
+
+    }
+
+    /* VALUES */
+
+    .section__title--values {
+        margin-left: 24px;
+    }
+
+    .subheader__title--values {
+        margin-left: 24px;
+    }
+
+    .values__para {
+        font-size: 16px;
+        padding: 24px 0 24px 24px;
+
+    }
+
+    .values__img--wrapper {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .values__mini--para {
+        margin-left: 24px;
+    }
+
+    .values__button {
+        margin-left: 24px;
+    }
+
+    /* PRICING */
+
+    .plans {
+        padding: 0 24px 0 24px;
+    }
+
+    .testi__main--para {
+        font-size: 16px;
+    }
+
+    .testi__exp--para {
+        font-size: 16px;
+    }
+
+    .section__title--testi {
+        padding-top: 48px;
+    }
+
+
+    .section__title--pricing {
+        margin-top: 0;
+    }
+
+
+    /* PURPLE BOX */
 
     .purple-box {
         width: 100%;
-        margin: 10rem 1rem 0 1rem;
+        margin: 0 16px 0 16px;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -1090,58 +1138,73 @@ T E S T I M O N I A L S
     }
 
     .text__wrapper {
-        margin-top: 2rem;
+        margin-top: 32px;
     }
 
     .button__wrapper {
+        display: flex;
         align-items: center;
         margin-right: 0;
     }
 
+    /* LINKS */
+
     .links {
-        padding: 0 2rem 0 2rem;
-        margin-top: 10rem;
+        padding: 0 32px 0 32px;
 
     }
 
     .footer__info {
-        padding: 0 2rem 0 2rem;
+        padding: 0 32px 0 32px;
     }
 
 }
 
 @media (max-width: 480px) {
 
+    .features__title--container {
+        padding-top: 100px;
+    }
+
     .steps__img {
         width: 75%;
     }
 
     .steps__img--container {
-        padding-top: 4rem;
+
         display: flex;
         justify-content: center;
     }
 
-.mini__wrapper--prof {
-    padding-left: 2rem;
-}
+    .mini__wrapper--prof {
+        padding-left: 32px;
+    }
 
     .price {
-        font-size: 2rem;
+        font-size: 32px;
     }
 
     .features__title {
         text-align: center;
-        font-size: 1rem;
+        font-size: 16px;
     }
 
+    .services {
+        width: 100%;
+     
+    }
+
+    .service__description--para {
+        line-height: 1;
+    }
+    
     .pricing__button {
-        padding: 1rem .5rem;
+        padding: 8px 4px;
 
     }
 
     .feature {
-        font-size: .8rem;
+        font-size: 16px;
         text-align: center
     }
 
@@ -1164,12 +1227,12 @@ T E S T I M O N I A L S
         display: none;
     }
 
-.footer__socials--container {
-   
-    display: flex;
-}
+    .footer__socials--container {
 
-.footer__copyright {
-    margin-left: 1.5rem;
-}
+        display: flex;
+    }
+
+    .footer__copyright {
+        margin-left: 24px;
+    }
 }
