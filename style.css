@@ -1236,6 +1236,30 @@ T E S T I M O N I A L S
 
 }
 
+
+@media (max-width: 650px){
+.header__container {
+    display: flex;
+    flex-direction: column;
+  margin: 0 auto;
+}
+
+.features__container {
+    padding-top: 200px;
+}
+
+.steps__img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.steps__img--container {
+    max-width: 100%;
+}
+
+
+}
+
 @media (max-width: 480px) {
 
     .header__container {
@@ -1248,7 +1272,7 @@ T E S T I M O N I A L S
     }
 
     .features__title--container {
-        margin-top: 300px;
+        margin-top: 100px;
         padding-top: 40px;
     }
 
