@@ -1226,6 +1226,13 @@ T E S T I M O N I A L S
         margin-right: 0;
     }
 
+    .red {
+        padding: 16px 24px 16px 24px;
+    }
+
+    .clear {
+        padding: 16px 24px 16px 24px;
+    }
     /* LINKS */
 
     .links {
@@ -1244,6 +1251,13 @@ T E S T I M O N I A L S
         padding: 0 48px;
     }
 
+}
+
+@media (max-width: 1160px) {
+    .button__wrapper {
+        margin-right: 24px;
+        
+    }
 }
 
 @media (max-width: 768px) {
